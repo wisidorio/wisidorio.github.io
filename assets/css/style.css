@@ -731,7 +731,8 @@ main {
 .clients-list {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
+  height: 35vh;
   gap: 15px;
   margin: 0 -15px;
   padding: 25px;
@@ -741,6 +742,7 @@ main {
   overscroll-behavior-inline: contain;
   scroll-snap-type: inline mandatory;
   scroll-padding-inline: 25px;
+
 }
 
 .clients-item {
@@ -749,12 +751,15 @@ main {
 }
 
 .clients-item img {
-  width: 100%;
-  filter: grayscale(1);
+  width: auto;
+  height: auto;
+  max-width: 100px;
+  max-height: 100px;
+  margin: 5px;
   transition: var(--transition-1);
 }
 
-.clients-item img:hover { filter: grayscale(0); }
+
 
 
 
