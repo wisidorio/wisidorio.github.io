@@ -756,6 +756,12 @@ main {
   max-width: 100px;
   max-height: 100px;
   margin: 5px;
+  padding: 10px;             /* Space around the logo */
+  /*background-color: #808080;  gray background */
+  border-radius: 10px;       /* Rounded edges */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
